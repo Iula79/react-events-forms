@@ -66,8 +66,9 @@ If you have extra time, create a `RestaurantForm.css` file and style the Restaur
 
 ### Exercise
 
+In `App.js`, pass the restaurant list into `RestaurantForm` as a prop.
 Change `RestaurantForm` to a component and initialize its state as `{selectedRestaurant: {}}`.
-Write a method `selectRestaurantById` that will update the `selectedRestaurant` based on an id passed to the method. This method should update `selectedRestaurant` to be the restaurant object from the restraunts list, not just the id. If the method gets called with no argument, it should set selectedRestaurant to an empty object.
+Write a method `selectRestaurantById` that will update the `selectedRestaurant` based on an id passed to the method. This method should update `selectedRestaurant` to be the restaurant object from the restraunts list, not just the id. We have access to this list on Props. If the method gets called with no argument, it should set selectedRestaurant to an empty object.
 
 You can add these two elements to your `RestaurantForm` to test `selectRestaurantById`:
 
