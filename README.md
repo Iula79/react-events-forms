@@ -11,6 +11,12 @@
 
 ![Doc Dive](https://media.giphy.com/media/3orifhJLiLIDxryOgo/giphy.gif)
 
+Today we will be doing a series of doc dives and adding relevant features to our [Fictional Restaurant Roulette App](https://git.generalassemb.ly/wdi-nyc-thundercats/LAB_U03_D03_Fictional-Restaurant-Roulette).
+We will start from where the lab left off. From the lab repo:
+
+```
+$ git checkout -b in-class stage-five
+```
 
 ## Components and Props
 
@@ -19,22 +25,22 @@
 - How are components like functions?
 - What are the two ways we can define a component?
 - What is the syntax for using components in JSX? What case do we use in our component names?
-- What is meant by [composing components](https://reactjs.org/docs/components-and-props.html#composing-components)
+- What is meant by [composing components](https://reactjs.org/docs/components-and-props.html#composing-components)?
 - Why do we want to extract components when possible?
 - What is meant by [props are read only](https://reactjs.org/docs/components-and-props.html#props-are-read-only)?
 
 ### Exercise
 
-We will be pair programming on today's exercises.
+We will be [pair programming](https://en.wikipedia.org/wiki/Pair_programming) on today's exercises.
 When pair programming, we want to work in a driver - navigator arangement where the person at the keyboard doesn't need to be thinking ahead but simply about the current step of the implimentation.
 The navigator meanwhile thinks about the big picture approach letting the driver worry about the technical details of the implementation.
 We will switch drivers and navigators at the next exercise.
 
 Add a component to the React app called `RestaurantForm`.
 Define your componets as functions until you need a feature only available to classes.
-The `RestaurantForm` should be made of two forms, one to chose whether to create a new restaurant or to edit an existing restaurant (the `RestaurantSelector`) and a form with fields for editing a restaurants attributes (the `RestuarantEditor`).
+The `RestaurantForm` should be made of two components, one to chose whether to create a new restaurant or to edit an existing restaurant (the `RestaurantSelector`) and a form with fields for editing a restaurants attributes (the `RestuarantEditor`).
 
-The component should be a `select` button with a list of `options`.
+The component `RestaurantSelector` should be a `select` element with a list of `options`.
 We're eventually going to use the restaurant list with this but for now just hard code an option or two in.
 
 Give `RestaurantSelect` a prop `restaurants` and make sure it works by hardcoding a value and logging it before rendering. But wait to use the list to create the options.
