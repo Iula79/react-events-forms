@@ -46,7 +46,7 @@ We're eventually going to use the restaurant list with this but for now just har
 
 Give `RestaurantSelect` a prop `restaurants` and make sure it works by hardcoding a value and logging it before rendering. But wait to use the list to create the options.
 
-Give `RestaurantForm` input fields for name, description, media, category, image, source, and media category, and a submit button.
+Give `RestaurantEditor` input fields for name, description, media, category, image, source, and media category, and a submit button.
 
 If you have extra time, create a `RestaurantForm.css` file and style the RestaurantForm.
 
