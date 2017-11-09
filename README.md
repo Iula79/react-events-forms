@@ -15,7 +15,8 @@ Today we will be doing a series of doc dives and adding relevant features to our
 We will start from where the lab left off. From the lab repo:
 
 ```
-$ git checkout -b in-class stage-five
+$ git checkout stage-five # NOTE: No -b! this checks out a remote branch locally
+$ git checkout -b in-class # This gives us a new branch so commits on stage-five don't change
 ```
 
 ## Components and Props
