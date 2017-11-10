@@ -105,7 +105,9 @@ Pass `selectRestaurantById` to `RestaurantSelector` as a prop. Add an `onChange`
 
 ### Exercise
 
-Add a conditional header and button to the `RestaurantEditor`. If the `selectedRestaurant` has an `id` property, the heading should read `Editing Restaurant` and the button should read `Save Changes`. If the `selectedRestaurant` doesn't have an `id`, the title should be `New Restaurant` and the button should be `Create`. Set the value on each of the input fields to come from `selectedRestaurant` as well.
+Add an option with the value of `null` to the restaurant selector. Add a header and button to the `RestaurantEditor` that render conditionally. The `RestaurantForm` should pass `state.selectedRestaurant` to the `restaurantEditor`. If the `selectedRestaurant` has an `id` property, the heading should read `Editing Restaurant` and the button should read `Save Changes`. If the `selectedRestaurant` doesn't have an `id`, the title should be `New Restaurant` and the button should be `Create`.
+
+Set the value on each of the input fields to come from `selectedRestaurant` as well.
 
 ## Lists and Keys
 
