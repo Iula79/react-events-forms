@@ -11,7 +11,7 @@
 
 ![Doc Dive](https://media.giphy.com/media/3orifhJLiLIDxryOgo/giphy.gif)
 
-Today we will be doing a series of doc dives and adding relevant features to our [Fictional Restaurant Roulette App](https://git.generalassemb.ly/wdi-nyc-thundercats/LAB_U03_D03_Fictional-Restaurant-Roulette).
+Today we will be doing a series of doc dives and adding relevant features to our [Fictional Restaurant Roulette App](https://git.generalassemb.ly/wdi-nyc-hamilton/fictional-restaurants-lab).
 We will start from where the lab left off. From the lab repo:
 
 ```
